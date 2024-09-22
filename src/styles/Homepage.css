@@ -1,0 +1,109 @@
+/* Homepage.css */
+
+/* General Styles */
+.container {
+    padding: 20px;
+}
+
+.header-HP{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding:  0 0px;
+}
+/* Error message styling */
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* Search Input */
+.ant-input-search {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.ant-btn {
+    margin-right: 10px;
+}
+
+/* Table Styles */
+.ant-table {.header-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between elements */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.header-item {
+    margin-right: 20px; /* Space between items */
+}
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Modal Styles */
+.ant-modal {
+    max-width: 600px;
+    width: 90%;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 400px) {
+    .container {
+        padding: 10px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .ant-input-search {
+        width: 100%;
+    }
+
+    .ant-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .ant-input-search {
+        width: 300px;
+    }
+
+    .ant-btn {
+        margin: 10px 5px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        padding: 20px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .ant-input-search {
+        width: 300px;
+    }
+
+    .ant-btn {
+        margin: 0 10px;
+    }
+}

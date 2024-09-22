@@ -1,0 +1,210 @@
+/* General page container styles */
+.user-management-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Form container styling */
+.form-container {
+    background-color: #fcf8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+/* Form title */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Form input styling */
+.ant-form-item {
+    margin-bottom: 20px;
+}
+
+.login-form-button{
+    width: 40%;
+    margin-top:10px
+}
+
+
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Button styling */
+.btn {
+    background-color: #1135d3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+@media (forced-colors: active) {
+    body {
+        background-color: Window;
+        /* Default background */
+        color: WindowText;
+        /* Default text color */
+    }
+
+    button {
+        background-color: ButtonFace;
+        /* Button background */
+        color: ButtonText;
+        /* Button text color */
+    }
+}
+.loginlink{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: #5648c4;
+}
+
+/* Link styles */
+.link {
+    margin-top: 10px;
+}
+
+.link a {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Password container for Forgot Password */
+.container-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 30px;
+}
+
+.container-password form {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.container-password h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Responsive styles */
+
+/* Small devices (phones) */
+@media (max-width: 500px) {
+
+    .form-container,
+    .container-password form {
+        padding: 20px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .form-input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .link a {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 501px) and (max-width: 1024px) {
+
+    .form-container,
+    .container-password form {
+        max-width: 450px;
+    }
+
+    .form-title {
+        font-size: 22px;
+    }
+
+    .form-input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1025px) {
+
+    .form-container,
+    .container-password form {
+        max-width: 500px;
+    }
+
+    .form-title {
+        font-size: 26px;
+    }
+
+    .form-input {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 18px;
+    }
+}
